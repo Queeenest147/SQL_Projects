@@ -145,23 +145,47 @@ I used SQL to answer analytical questions such as:
 <img width="836" height="304" alt="image" src="https://github.com/user-attachments/assets/972887ec-e817-4717-992c-a3f073158e2a" />
 
 * Which age group churned the most?
+
+<img width="392" height="103" alt="image" src="https://github.com/user-attachments/assets/1466c6a0-b365-4ed4-b4ea-fc1994ecd188" />
+
 * Which country had the highest churn rate?
-* What is the impact of credit cards & product usage?
-* What is the churn distribution across risk levels?
+
+<img width="517" height="122" alt="image" src="https://github.com/user-attachments/assets/534a0f3f-e370-46c5-aa8d-d8740449525b" />
+
+* What is the impact of product usage on the churn rate?
+
+<img width="452" height="129" alt="image" src="https://github.com/user-attachments/assets/2eb75dec-6b71-4551-ad27-d295cf5d631c" />
+
+
+*Among High-balance customers, which gender churns more?
+
+<img width="443" height="112" alt="image" src="https://github.com/user-attachments/assets/03587652-33ee-487d-b1e1-370174e73db8" />
+
+
 * What are the running salary averages per country?
+
+<img width="314" height="151" alt="image" src="https://github.com/user-attachments/assets/cc848144-331b-411e-b733-0aa8d22ce021" />
+
 * What is the credit score comparison using LAG()
+
+<img width="457" height="123" alt="image" src="https://github.com/user-attachments/assets/f2a7576b-cd7f-49d8-8a41-e1118a4eff84" />
+
+
 * Who are the top-ranking customers within a particular country/geography?
-* What is the wealth distribution and churn?
+
+<img width="298" height="133" alt="image" src="https://github.com/user-attachments/assets/c70e3c9e-fdea-43f4-ac04-169152ba1186" />
+
+
+* What is the wealth distribution and retention rate based on the wealth distribution?
+
+<img width="455" height="166" alt="image" src="https://github.com/user-attachments/assets/ea28b7dd-001e-4a6c-9b0a-b02d8929ba86" />
+
 
 ### 📊 Result
 
 These analyses revealed the underlying behavioural patterns that feed churn prediction.
 
-### 📸 Screenshot Placeholder
 
-`![Analysis Screenshot](images/analysis.png)`
-
----
 
 # 💡 SECTION D — Insights (Business Impact)
 
@@ -172,17 +196,12 @@ These analyses revealed the underlying behavioural patterns that feed churn pred
 ✔️ Risk levels connected to churn
 ✔️ Wealth distribution patterns
 ✔️ Credit score behaviour across geographic regions
-✔️ Which customers should be prioritized for retention efforts
+✔️ Which customers should be prioritised for retention efforts
 
-### 📸 Screenshot Placeholder
-
-`![Insights Screenshot](images/insights.png)`
-
----
 
 # 📌 SECTION E — Summary of Key Findings
 
-Here are some examples of what your findings will summarize (adjust based on your results):
+Here are some examples of what your findings will summarise (adjust based on your results):
 
 * 🚨 **Inactive members churn significantly more than active members**
 * 🌍 **One country had disproportionately high churn rates**
@@ -197,11 +216,11 @@ Here are some examples of what your findings will summarize (adjust based on you
 
 Again, adjust these based on your analysis:
 
-* Target high-risk customers with personalized retention plans
+* Target high-risk customers with personalised retention plans
 * Improve loyalty programs for mid-wealth & medium-risk segments
-* Strengthen relationship management in the country with highest churn
-* Create financial education programs for low credit score customers
-* Incentivize inactive members to re-engage
+* Strengthen relationship management in the country with the highest churn
+* Create financial education programs for low-credit-score customers
+* Incentivise inactive members to re-engage
 * Offer product bundles that reduce churn
 
 ---
@@ -215,7 +234,7 @@ Again, adjust these based on your analysis:
    * Cleaning & Inspection
    * Preparation
    * Analysis
-4. Connect results to Excel / Power BI for visualizations if needed
+4. Connect results to Excel / Power BI for visualisations if needed
 
 ---
 
@@ -224,14 +243,3 @@ Again, adjust these based on your analysis:
 This project was one of my favourite SQL journeys so far — I loved uncovering hidden insights and using advanced SQL features like NTILE, window functions, LAG(), CASE logic, and churn analytics.
 
 More SQL, Python, and Power BI projects on the way! 🚀✨
-
----
-
-If you'd like, I can also:
-
-✅ Generate a **Professional GitHub Project Description**
-✅ Help you create your **screenshots layout**
-✅ Build a **Power BI dashboard blueprint** for this
-✅ Help prepare a **portfolio write-up** for scholarships or internships
-
-Just tell me!
