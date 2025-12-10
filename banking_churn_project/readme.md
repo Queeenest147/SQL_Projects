@@ -115,7 +115,7 @@ I divided the workflow into 3 core phases:
 #  Project Structure
 
 ```
- Banking Churn SQL Project
+ 🗂️ Banking Churn SQL Project
 │
 ├── 📄 banking_churn_data_cleaning_and_inspection.sql
 ├── 📄 banking_churn_data_preparation.sql
@@ -683,7 +683,7 @@ Credit card ownership does not impact churn.
 Running averages and balance comparisons reveal spending power differences across countries.
 
 
-# 🗂️ How to Use This Repository
+#  How to Use This Repository
 
 1. **Clone the repo**
 2. Import the SQL files into PostgreSQL
