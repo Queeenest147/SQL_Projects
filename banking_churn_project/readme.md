@@ -112,10 +112,10 @@ I divided the workflow into 3 core phases:
 
 ---
 
-# 🧩 Project Structure
+#  Project Structure
 
 ```
-📁 Banking Churn SQL Project
+ Banking Churn SQL Project
 │
 ├── 📄 banking_churn_data_cleaning_and_inspection.sql
 ├── 📄 banking_churn_data_preparation.sql
