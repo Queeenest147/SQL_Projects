@@ -1,6 +1,6 @@
 # 👋Welcome to My SQL Projects Repository
 
-This space is dedicated to the SQL work I’m building as I grow in data analytics — from data cleaning and feature engineering to deep analytical queries and business-ready insights.
+This space is dedicated to the SQL work I’m building as I grow in data analytics, from data cleaning and feature engineering to deep analytical queries and business-ready insights.
 
 I created this repository as a way to track my progress, practice real-world SQL workflows, and challenge myself to think like an analyst:
 not just writing queries, but asking better questions, discovering patterns, and turning data into something meaningful.
