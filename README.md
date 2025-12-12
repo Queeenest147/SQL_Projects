@@ -35,8 +35,3 @@ SQL quickly became one of my favourite tools because of how powerful and express
 Every project here represents a step in my journey from learning something new, applying it practically, and building the foundation for my data analytics and data science career.
 
 Feel free to explore any folder, run the scripts, or reach out if you’d like to discuss analytics, SQL workflows, or data projects!
-
-
----
-
-If you want this section even more formal or slightly more playful, I can adjust the tone — just tell me!
