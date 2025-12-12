@@ -1,4 +1,4 @@
-#👋 Welcome to My SQL Projects Repository
+# 👋Welcome to My SQL Projects Repository
 
 This space is dedicated to the SQL work I’m building as I grow in data analytics — from data cleaning and feature engineering to deep analytical queries and business-ready insights.
 
