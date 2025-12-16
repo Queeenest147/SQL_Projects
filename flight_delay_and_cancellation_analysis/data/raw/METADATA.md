@@ -23,49 +23,43 @@
 
 ## Row and Column Count
 - Rows: 1,048,575  
-- Columns: 18 (10 key columns are most relevant for analysis)
+- Columns: 18 (all are included; key columns highlighted in descriptions below)
 
 ## Key Columns
 
-| Column Name          | Description                                   | Type       | Unit       |
-|----------------------|-----------------------------------------------|------------|------------|
-| year                 | Year of flight                                | int        | N/A        |
-| month                | Month of flight                               | int        | N/A        |
-| day                  | Day of flight                                 | int        | N/A        |
-| departure_time       | Actual departure timestamp                     | timestamp  | N/A        |
-| arrival_time         | Actual arrival timestamp                       | timestamp  | N/A        |
-| wheels_off           | Time aircraft leaves the runway                | timestamp  | N/A        |
-| wheels_on            | Time aircraft touches down                     | timestamp  | N/A        |
-| origin_airport       | Departure airport code                          | string     | N/A        |
-| destination_airport  | Arrival airport code                            | string     | N/A        |
-| airtime              | Duration of flight                             | int        | minutes    |
-| taxi_out             | Time spent taxiing before takeoff               | int        | minutes    |
-| taxi_in              | Time spent taxiing after landing                | int        | minutes    |
-| departure_delay      | Delay in departure                             | int        | minutes    |
-| arrival_delay        | Delay in arrival                               | int        | minutes    |
-| weather_delay        | Delay caused by weather                        | int        | minutes    |
-| late_aircraft_delay  | Delay caused by late arrival of previous aircraft | int     | minutes    |
-| cancelled            | Flight cancellation flag                        | boolean    | N/A        |
-| cancellation_code    | Reason for cancellation (A/B/C/D)              | string     | N/A        |
+| Column Name              | Description                                               | Type       | Unit       |
+|---------------------------|-----------------------------------------------------------|------------|------------|
+| year                      | Year of flight                                            | int        | N/A        |
+| month                     | Month of flight                                           | int        | N/A        |
+| day                       | Day of the month                                         | int        | N/A        |
+| day_of_week               | Day of week (1=Monday, 7=Sunday)                         | int        | N/A        |
+| flight_date               | Full flight date (YYYY-MM-DD)                             | date       | N/A        |
+| origin_airport            | Departure airport code                                    | string     | N/A        |
+| origin_city               | Origin city name                                          | string     | N/A        |
+| origin_state              | Origin state                                             | string     | N/A        |
+| departure_time            | Scheduled/actual departure time                           | int        | HHMM       |
+| taxi_out_minutes          | Time spent taxiing before takeoff                         | int        | minutes    |
+| takeoff_time              | Wheels off / aircraft takeoff time                        | int        | HHMM       |
+| landing_time              | Wheels on / aircraft landing time                          | int        | HHMM       |
+| taxi_in_minutes           | Time spent taxiing after landing                           | int        | minutes    |
+| is_cancelled              | Flight cancellation flag (1=yes, 0=no)                   | boolean    | N/A        |
+| flight_duration_minutes   | Air time / flight duration                                 | int        | minutes    |
+| distance_miles            | Flight distance                                           | int        | miles      |
+| weather_delay_minutes     | Delay caused by weather                                   | int        | minutes    |
+| late_aircraft_delay_minutes | Delay caused by late arrival of previous aircraft       | int        | minutes    |
 
 ---
 
 ## Known Limitations
-- Some `arrival_time` or `departure_time` values are missing for cancelled flights.  
+- Some `departure_time`, `takeoff_time`, `landing_time`, or `flight_duration_minutes` values are missing for cancelled flights.  
 - Limited weather details included; cannot fully explain all delays.  
-- Dataset only covers US flights in 2024, so trends may not generalize to other years.  
+- The dataset only covers US flights in 2024, so trends may not generalise to other years.  
 - Possible duplicates or errors in recorded delays.
 
 ---
 
-## Usability
-- Score: 10.00 / 10  
-- Expected update frequency: Annually
-
----
-
 ## Potential Analytical Questions
-These questions guide understanding of the dataset before analysis:  
+These questions guide the understanding of the dataset before analysis:  
 
 ### Airline & Route Performance
 - Which airports and routes have the best on-time performance?  
@@ -76,5 +70,6 @@ These questions guide understanding of the dataset before analysis:
 - Are there monthly or seasonal patterns in flight delays?  
 
 ### Weather & Operational Impact
-- How does weather influence flight delays?  
-- To what extent do late arrivals of previous aircraft (`late_aircraft_delay`) affect subsequent flights?
+- How does the weather influence flight delays?  
+- To what extent do late arrivals of previous aircraft (`late_aircraft_delay_minutes`) affect subsequent flights?
+
